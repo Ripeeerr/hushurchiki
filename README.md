@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 <div align="center">
 
@@ -87,9 +86,12 @@ request. Маленькие идеи тоже умеют становиться 
 
 </div>
 
-=======
 
 # testddfd
+dп
+df
+м
+а
 
 dп df м
 
