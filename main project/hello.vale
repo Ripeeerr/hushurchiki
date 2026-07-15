@@ -1,0 +1,4 @@
+import &#34;stdio&#34;;
+export fn main() {
+    println(&#34;Hello, World!&#34;);
+}

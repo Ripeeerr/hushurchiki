@@ -1,0 +1,3 @@
+U0 hello() {
+  Print("Hello, World!\n");
+}
