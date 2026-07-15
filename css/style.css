@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0d0f1a;
+  background-image:
+    radial-gradient(circle at 20% 10%, rgba(255, 106, 43, 0.08), transparent 40%),
+    radial-gradient(circle at 80% 90%, rgba(232, 184, 75, 0.06), transparent 40%);
+  color: #ede6d3;
+  font-family: 'Rubik', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 40px 20px;
+  border-bottom: 3px solid #e8b84b;
+  background: linear-gradient(180deg, rgba(13, 15, 26, 0.2) 0%, rgba(13, 15, 26, 0.95) 85%);
+}
+
+.eyebrow {
+  font-size: 13px;
+  color: #e8b84b;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.hero h1 {
+  font-weight: 900;
+  font-size: 96px;
+  line-height: 1.02;
+  background: linear-gradient(180deg, var(--gold-bright) 10%, var(--ember) 90%);
+  background-clip: text;
+  text-shadow: 0 4px 30px rgba(255, 106, 43, 0.25);
+}
+
+.hero .subtitle {
+  margin-top: 24px;
+  font-size: 20px;
+  color: #9a97a8;
+  font-weight: 500;
+  max-width: 560px;
+}
+
+.worm {
+  margin: auto;
+}
