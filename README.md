@@ -1,90 +1,64 @@
-
 <div align="center">
 
-# ✦ test.exe — маленький проект с большим вайбом
+# Читинские Хушуры
 
-![anime](https://img.shields.io/badge/mood-anime%20%26%20chill-ff69b4?style=for-the-badge&labelColor=1a1026)
-![status](https://img.shields.io/badge/status-in%20development-8be9fd?style=for-the-badge&labelColor=1a1026)
-![license](https://img.shields.io/badge/license-TBD-bd93f9?style=for-the-badge&labelColor=1a1026)
-
-### `> booting the main character...`
-
-_Добро пожаловать в маленький уголок интернета, где код встречается с ночным неоном, a каждый новый
-коммит ощущается как opening следующей арки._
-
-╭────────────────────────────────────────────╮  
-│ 🌙 **status:** online │  
-│ 🎧 **soundtrack:** lo-fi / city pop │  
-│ 🍜 **fuel:** рамен и дедлайны │  
-╰────────────────────────────────────────────╯
+![status](https://img.shields.io/badge/status-active-8be9fd?style=for-the-badge&labelColor=1a1026)
+![pages](https://img.shields.io/badge/GitHub%20Pages-deployed-bd93f9?style=for-the-badge&labelColor=1a1026)
 
 </div>
 
-## 🪄 Что это такое?
+## О проекте
 
-[test](https://ripeeerr.github.io/test/) — уютный playground для идей, экспериментов и вещей, которые слишком интересны, чтобы
-оставлять их в черновиках. Проект растёт постепенно: без пафоса, зато с любопытством, аккуратным
-кодом и правильным количеством ✨.
+Сайт команды **«Читинские Хушуры»** — семь бойцов, один хушур на всех. Дивизион Забайкальского края.
 
-> **Главное правило:** если можно сделать понятнее — делаем понятнее. Если можно добавить немного
-> вайба — добавляем.
+Проект включает:
 
-## 🗺️ Карта проекта
+- **Landing page** (`index.html`) — визитка команды с тёмной каменной эстетикой
+- **Коллекция Hello, World!** (`main project/`) — примеры «Hello, World!» на 50+ языках программирования: от Ada и C до Zig и HolyC
 
-```text
-test/
-├── README.md        ← ты здесь, герой
-├── src/             ← здесь появится магия
-├── tests/           ← заклинания против багов
-└── ...              ← next episode coming soon
+Сайт развёрнут через **GitHub Pages** и автоматически деплоится при пушах в ветку `dungeon_master`.
+
+## Структура
+
+```
+hushurchiki/
+├── index.html            # Главная страница
+├── css/
+│   └── style.css         # Стили (stone/gold theme)
+├── img/
+│   └── logo.jpg          # Логотип
+├── main project/         # Коллекция Hello, World!
+│   ├── hello.py
+│   ├── hello.c
+│   ├── main.rs
+│   └── ... (50+ файлов)
+├── .github/workflows/    # CI/CD для GitHub Pages
+└── README.md
 ```
 
-Структура будет обновляться вместе с проектом — README не бросит тебя в filler-арке.
+## Стек
 
-## 🚀 Быстрый старт
+- HTML + CSS (кастомная stone/gold тема)
+- GitHub Pages + GitHub Actions
 
-```bash
-git clone https://github.com/<your-name>/test.git
-cd test
+## Коллекция языков `main project/`
 
-# выбери свою ветку приключений
-git switch -c feature/my-arc
-```
+| Категория | Языки |
+|-----------|-------|
+| Классика | C, C++, Java, Python, C#, JavaScript, TypeScript, Go, Rust, Swift, Kotlin |
+| Функциональные | Haskell, OCaml, F#, Clojure, Scheme, Racket, Erlang, Elixir |
+| Динамические | Ruby, PHP, Perl, Lua, Julia, R, Tcl |
+| Системные | Zig, Odin, Nim, Ada, Carbon, V, Vale, D, Crystal |
+| Эзотерические | HolyC, Pony, Red, REBOL, Janet, Hy, Wren, Ring, MoonScript |
+| Ретро | COBOL, Fortran, Pascal, APL, J |
+| Прочее | Visual Basic, PowerShell (требует уточнения), и другие |
 
-Сейчас это чистый стартовый canvas. Добавляй любимый стек, запускай эксперименты и не забудь
-оставить после себя пару хороших комментариев для следующего персонажа.
+## Планы
 
-## ✨ Планы на следующие эпизоды
+- [ ] Дополнить секции команды
+- [ ] Добавить больше языков в коллекцию
+- [ ] Улучшить адаптивность
 
-- [ ] собрать первый рабочий прототип
-- [ ] добавить полезные команды запуска
-- [ ] покрыть критичные места тестами
-- [ ] сделать документацию ещё уютнее
-- [ ] отпраздновать релиз чем-нибудь вкусным 🍡
+## Лицензия
 
-## 🤝 Как присоединиться
-
-Нашёл баг, придумал улучшение или просто хочешь добавить немного sparkle? Открывай issue или pull
-request. Маленькие идеи тоже умеют становиться большими арками.
-
-```diff
-+ твоя идея
-+ твой фикс
-+ твой уникальный вайб
-```
-
-## 📜 Лицензия
-
-Проект распространяется под лицензией **MIT**. Используй, изучай, улучшай и передавай дальше — как
-хороший opening, который хочется переслушать.
-
-<div align="center">
-
-### `see you in the next commit ✦`
-
-<sub>made with curiosity, caffeine and a little bit of moonlight</sub>
-
-</div>
-
-.
-авторы психически неуравновешены и больны.
+MIT
