@@ -1,3 +1,4 @@
+@import 'achievement.css';
 :root {
   --stone-dark: #15130f;
   --stone-deeper: #0b0a08;
@@ -258,8 +259,14 @@ section {
 }
 
 @keyframes dotAppear {
-  from { opacity: 0; transform: scale(0.85); }
-  to { opacity: 1; transform: scale(1); }
+  from {
+    opacity: 0;
+    transform: scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .fighter-dot::before {
@@ -307,7 +314,9 @@ section {
   padding: 80px 0;
   opacity: 0;
   transform: translateY(50px);
-  transition: opacity 0.7s ease, transform 0.7s ease;
+  transition:
+    opacity 0.7s ease,
+    transform 0.7s ease;
   position: relative;
   scroll-margin-top: 70px;
 }
@@ -483,7 +492,9 @@ section {
   object-fit: cover;
   border: 1px solid rgba(201, 162, 74, 0.15);
   opacity: 0.85;
-  transition: opacity 0.4s, border-color 0.3s;
+  transition:
+    opacity 0.4s,
+    border-color 0.3s;
 }
 
 .gallery-main:hover {
@@ -504,7 +515,11 @@ footer {
   position: absolute;
   inset: 0;
   background-image:
-    repeating-linear-gradient(90deg, rgba(255, 255, 255, 0.008) 0px transparent 2px, transparent 40px),
+    repeating-linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.008) 0px transparent 2px,
+      transparent 40px
+    ),
     repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.15) 0px transparent 2px, transparent 40px);
   pointer-events: none;
   opacity: 0.6;

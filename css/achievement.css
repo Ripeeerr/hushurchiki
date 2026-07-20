@@ -1,0 +1,46 @@
+header {
+  position: relative;
+}
+
+.achievement {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+
+  background: #1e1e1e;
+  color: gold;
+
+  border: 2px solid gold;
+  border-radius: 12px;
+
+  padding: 20px;
+
+  animation: slide 0.4s ease;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(300px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.dungeon-mode {
+  animation: light 1.8s ease-in-out;
+}
+
+@keyframes light {
+  from {
+    filter: hue-rotate(0deg);
+    transform: rotate(0turn);
+  }
+  to {
+    filter: hue-rotate(3600deg);
+    transform: rotate(3600turn);
+  }
+}
