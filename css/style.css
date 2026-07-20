@@ -716,3 +716,8 @@ footer {
     gap: 2px;
   }
 }
+
+.fighter-one {
+ width: 350px;
+ height: 600px; 
+}
