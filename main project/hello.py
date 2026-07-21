@@ -1,2 +1,2 @@
-print(&#34;Hello, World!&#34;)
+print("Hello, World!")
 #всем привет я новеньки
