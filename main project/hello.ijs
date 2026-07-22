@@ -1,2 +1,1 @@
-hello.ijs -Value @echo'Hello, World!'
-@
+echo 'Hello, World!'
