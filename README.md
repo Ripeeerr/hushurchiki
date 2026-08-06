@@ -49,7 +49,7 @@ hushurchiki/
 | Функциональные | Haskell, OCaml, F#, Clojure, Scheme, Racket, Erlang, Elixir |
 | Динамические | Ruby, PHP, Perl, Lua, Julia, R, Tcl |
 | Системные | Zig, Odin, Nim, Ada, Carbon, V, Vale, D, Crystal |
-| Эзотерические | HolyC, Pony, Red, REBOL, Janet, Hy, Wren, Ring, MoonScript |
+| Эзотерические | HolyC, Pony, Red, REBOL, Janet, Hy, Wren, Ring, MoonScript, Brainfuck, Whitespace, LOLCODE |
 | Ретро | COBOL, Fortran, Pascal, APL, J |
 | Прочее | Visual Basic, PowerShell (требует уточнения), и другие |
 
